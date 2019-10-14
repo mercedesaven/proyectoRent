@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,172 +9,202 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Alquilapp</title>
 </head>
+
 <body>
     <header>
-        <img src="styles/images/LOGO-ALQUILAPP.png" alt="" class="logo">
-        <input type="text" class="search">
-        <a href="#" class="search-btn">
-            <span class="search-text">Buscar</span>
-        </a>
-        <img src="styles/images/profile.jpg" alt="" class="profile">
+        <div class="logo-container">
+            <a href='#'>
+                <img src="styles/images/LOGO-ALQUILAPP.png" alt="logo-alquilapp" class="logo">
+            </a>
+        </div>
+        <div class="input-search">
+            <input type="text" class="search">
+            <a href="#" class="search-btn">
+                <span class="search-text">Buscar</span>
+            </a>
+            <img src="styles/images/profile.jpg" alt="profilepicture" class="profile">
+        </div>
     </header>
     <nav class="navBar">
-        <a href="#"><p>Salud</p></a>
-        <a href="#"><p>Jardín</p></a>
-        <a href="#"><p>Hogar</p></a>
-        <a href="#"><p>Cocina</p></a>
+        <ul>
+            <li>
+                <a href="#salud">
+                    <p>Salud</p>
+                </a>
+            </li>
+            <li>
+                <a href="#jardin">
+                    <p>Jardín</p>
+                </a>
+            </li>
+            <li>
+                <a href="#cocina">
+                    <p>Cocina</p>
+                </a>
+            </li>
+            <li>
+                <a href="#hogar">
+                    <p>Hogar</p>
+                </a>
+            </li>
+        </ul>
     </nav>
     <div class="container">
         <div class="productsLists">
-                <div class="productContainer">
-                <p class="catTitle"> Salud</p>
+            <div class="productContainer">
+                <p id="salud" class="catTitle"> Salud</p>
                 <ul>
-                    <li>
+                    <li class="item1">
                         <a href="#">
-                        <div class="imgContainer">
-                            <img src="styles/images/tensiometro.jpg" alt="" class="imageSeller">
-                        </div>    
+                            <div class="imgContainer">
+                                <img src="styles/images/tensiometro.jpg" alt="" class="imageSeller">
+                            </div>
                             <p>Tensiometro</p>
                             <span>$70<span></span>
                         </a>
-                        <a href="#" class="more" >Alquilar</a>
-                    </a>
+                        <a href="#" class="more">Alquilar</a>
+                        </a>
                     </li>
-                    <li>
-                      <a href="#">
-                        <div class="imgContainer">
-                            <img src="styles/images/BalanzaPersonal.jpg" alt="" class="imageSeller">
-                        </div>    
+                    <li class="item2">
+                        <a href="#">
+                            <div class="imgContainer">
+                                <img src="styles/images/BalanzaPersonal.jpg" alt="" class="imageSeller">
+                            </div>
                             <p>Balanza Personal</p>
                             <span>$120<span></span>
                         </a>
-                        <a href="#" class="more" >Alquilar</a>
+                        <a href="#" class="more">Alquilar</a>
                     </li>
-                    <li>
-                      <a href="#">
-                        <div class="imgContainer">
-                            <img src="styles/images/Nebulizador.jpg" alt="" class="imageSeller">
-                        </div>    
+                    <li class="item3">
+                        <a href="#">
+                            <div class="imgContainer">
+                                <img src="styles/images/Nebulizador.jpg" alt="" class="imageSeller">
+                            </div>
                             <p>Nebulizador</p>
                             <span>$80<span></span>
                         </a>
-                        <a href="#" class="more" >Alquilar</a>
-                    </li> 
+                        <a href="#" class="more">Alquilar</a>
+                    </li>
                 </ul>
-                </div>
+            </div>
         </div>
         <div class="productsLists">
-                <div class="productContainer">
-                <p class="catTitle">Jardín</p>
+            <div class="productContainer">
+                <p id="jardin" class="catTitle">Jardín</p>
                 <ul>
-                    <li>
-                      <a href="#">
-                        <div class="imgContainer">
-                            <img src="styles/images/bordeadora.jpg" alt="" class="imageSeller">
-                        </div>    
+                    <li class="item1">
+                        <a href="#">
+                            <div class="imgContainer">
+                                <img src="styles/images/bordeadora.jpg" alt="" class="imageSeller">
+                            </div>
                             <p>Bordeadora</p>
                             <span>$150<span></span>
                         </a>
-                        <a href="#" class="more" >Alquilar</a>
+                        <a href="#" class="more">Alquilar</a>
                     </li>
-                    <li>
-                      <a href="#">
-                        <div class="imgContainer">
-                            <img src="styles/images/hidrolavadora.jpg" alt="" class="imageSeller">
-                        </div>    
+                    <li class="item2">
+                        <a href="#">
+                            <div class="imgContainer">
+                                <img src="styles/images/hidrolavadora.jpg" alt="" class="imageSeller">
+                            </div>
                             <p>Hidrolavadora</p>
                             <span>$100<span></span>
                         </a>
-                        <a href="#" class="more" >Alquilar</a>
+                        <a href="#" class="more">Alquilar</a>
                     </li>
-                    <li>
-                      <a href="#">
-                        <div class="imgContainer">
-                            <img src="styles/images/cortadoraDeCesped.jpg" alt="" class="imageSeller">
-                        </div>    
+                    <li class="item3">
+                        <a href="#">
+                            <div class="imgContainer">
+                                <img src="styles/images/cortadoraDeCesped.jpg" alt="" class="imageSeller">
+                            </div>
                             <p>cortadora De Cesped</p>
                             <span>$70<span></span>
                         </a>
-                        <a href="#" class="more" >Alquilar</a>
-                    </li> 
+                        <a href="#" class="more">Alquilar</a>
+                    </li>
                 </ul>
-                </div>
+            </div>
         </div>
         <div class="productsLists">
-                <div class="productContainer">
-                <p class="catTitle">Cocina</p>
+            <div class="productContainer">
+                <p id="cocina" class="catTitle">Cocina</p>
                 <ul>
-                    <li>
-                       <a href="#">
-                        <div class="imgContainer">
-                            <img src="styles/images/licuadora.jpg" alt="" class="imageSeller">
-                        </div>    
+                    <li class="item1">
+                        <a href="#">
+                            <div class="imgContainer">
+                                <img src="styles/images/licuadora.jpg" alt="" class="imageSeller">
+                            </div>
                             <p>Licuadora</p>
                             <span>$120<span></span>
                         </a>
-                        <a href="#" class="more" >Alquilar</a>
+                        <a href="#" class="more">Alquilar</a>
                     </li>
-                    <li>
-                      <a href="#">
-                        <div class="imgContainer">
-                            <img src="styles/images/batidora-vb-7.jpg" alt="" class="imageSeller">
-                        </div>    
+                    <li class="item2">
+                        <a href="#">
+                            <div class="imgContainer">
+                                <img src="styles/images/batidora-vb-7.jpg" alt="" class="imageSeller">
+                            </div>
                             <p>Batidora</p>
                             <span>$50<span></span>
                         </a>
-                        <a href="#" class="more" >Alquilar</a>
+                        <a href="#" class="more">Alquilar</a>
                     </li>
-                    <li>
+                    <li class="item3">
                         <a href="#">
-                        <div class="imgContainer">
-                            <img src="styles/images/minipimer.jpg" alt="" class="imageSeller">
-                        </div>    
+                            <div class="imgContainer">
+                                <img src="styles/images/minipimer.jpg" alt="" class="imageSeller">
+                            </div>
                             <p>Minipimer</p>
                             <span>$200<span></span>
                         </a>
-                        <a href="#" class="more" >Alquilar</a>
-                    </li> 
+                        <a href="#" class="more">Alquilar</a>
+                    </li>
                 </ul>
-                </div>
+            </div>
         </div>
         <div class="productsLists">
-                <div class="productContainer">
-                <p class="catTitle">Hogar</p>
+            <div class="productContainer">
+                <p id="hogar" class="catTitle">Hogar</p>
                 <ul>
-                    <li>
-                      <a href="#">
-                        <div class="imgContainer">
-                            <img src="styles/images/lukas-ter-poorten-paAJDCYNq-0-unsplash.jpg" alt="" class="imageSeller">
-                        </div>    
+                    <li class="item1">
+                        <a href="#">
+                            <div class="imgContainer">
+                                <img src="styles/images/lukas-ter-poorten-paAJDCYNq-0-unsplash.jpg" alt=""
+                                    class="imageSeller">
+                            </div>
                             <p>Aspiradora</p>
                             <span>$170<span></span>
                         </a>
-                        <a href="#" class="more" >Alquilar</a>
+                        <a href="#" class="more">Alquilar</a>
                     </li>
-                    <li>
-                       <a href="#">
-                        <div class="imgContainer">
-                            <img src="styles/images/calefonelectrico.jpg" alt="" class="imageSeller">
-                        </div>    
+                    <li class="item2">
+                        <a href="#">
+                            <div class="imgContainer">
+                                <img src="styles/images/calefonelectrico.jpg" alt="" class="imageSeller">
+                            </div>
                             <p>Ducha Eléctrica</p>
                             <span>$200<span></span>
                         </a>
-                        <a href="#" class="more" >Alquilar</a>
+                        <a href="#" class="more">Alquilar</a>
                     </li>
-                    <li>
+                    <li class="item3">
                         <a href="#">
-                        <div class="imgContainer">
-                            <img src="styles/images/taladro.jpg" alt="" class="imageSeller">
-                        </div>    
+                            <div class="imgContainer">
+                                <img src="styles/images/taladro.jpg" alt="" class="imageSeller">
+                            </div>
                             <p>Taladro</p>
                             <span>$200<span></span>
                         </a>
-                        <a href="#" class="more" >Alquilar</a>
-                    </li> 
+                        <a href="#" class="more">Alquilar</a>
+                    </li>
                 </ul>
-                </div>
+            </div>
         </div>
-          
-        </div>    
-    </body>
+    </div>
+    <footer class="footer">
+                <p>alquilapp.com</p>
+    </footer>
+
+</body>
+
 </html>

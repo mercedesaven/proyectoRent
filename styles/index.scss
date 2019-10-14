@@ -5,7 +5,7 @@ body {
     background: -webkit-gradient(left top, right top, color-stop(0%, rgb(254,182,69)), color-stop(100%, rgb(241,231,103)));
    background: -webkit-linear-gradient(left, rgb(254,182,69) 0%, rgb(241,231,103) 100%);
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
-}
+
 .container{
     background-color: $white;
     margin: 20px auto;
@@ -73,6 +73,9 @@ body {
           -webkit-box-shadow: 0 0 10px #ccc;
           box-shadow: 0 0 10px #ccc;
         }
+        &:focus{
+            outline: none;
+        }
     }
     a{
         p{
@@ -92,7 +95,8 @@ body {
 
 
 
-    }
+      }
     
-    }
+     }
+  }
 }

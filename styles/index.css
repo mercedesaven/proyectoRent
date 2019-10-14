@@ -14,15 +14,14 @@ body {
   background: -webkit-linear-gradient(left, #feb645 0%, #f1e767 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f1e767", endColorstr="#feb645", GradientType=1 );
 }
-
-.container {
+body .container {
   background-color: #ffffff;
   margin: 20px auto;
   width: 70%;
   border-radius: 10%;
   padding: 10px;
 }
-.container .welcome .logo {
+body .container .welcome .logo {
   display: flex;
   align-content: center;
   flex-direction: column;
@@ -30,10 +29,10 @@ body {
   justify-content: center;
   margin-top: 10px;
 }
-.container .welcome .logo img {
+body .container .welcome .logo img {
   width: 30%;
 }
-.container .welcome span {
+body .container .welcome span {
   color: #7E807E;
   display: flex;
   justify-content: space-between;
@@ -45,16 +44,16 @@ body {
   padding: 10px;
   font-family: "Roboto", sans-serif;
 }
-.container .welcome div {
+body .container .welcome div {
   margin: auto;
   width: 70%;
 }
-.container .welcome div p {
+body .container .welcome div p {
   color: #7E807E;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
 }
-.container .containerLogin {
+body .container .containerLogin {
   margin: auto;
   width: 50%;
   display: flex;
@@ -64,24 +63,27 @@ body {
   align-items: center;
   margin-top: 10px;
 }
-.container .containerLogin .inputText {
+body .container .containerLogin .inputText {
   display: flex;
   margin-bottom: 30px;
   width: 100%;
   font-family: "Roboto", sans-serif;
   padding: 10px;
 }
-.container .containerLogin .inputText:hover {
+body .container .containerLogin .inputText:hover {
   -moz-box-shadow: 0 0 10px #ccc;
   -webkit-box-shadow: 0 0 10px #ccc;
   box-shadow: 0 0 10px #ccc;
 }
-.container .containerLogin a p {
+body .container .containerLogin .inputText:focus {
+  outline: none;
+}
+body .container .containerLogin a p {
   margin-bottom: 30px;
   color: #7E807E;
   font-family: "Roboto", sans-serif;
 }
-.container .containerLogin .buttonEnter {
+body .container .containerLogin .buttonEnter {
   border: 1px solid #2CC24A;
   font-size: 20px;
   font-weight: bold;
