@@ -67,11 +67,18 @@ body {
         width: 100%;
         font-family: $roboto;
         padding: 10px;
+        &:hover
+        {
+          -moz-box-shadow: 0 0 10px #ccc;
+          -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+        }
     }
     a{
         p{
         margin-bottom: 30px;
         color:$darkgrey;
+        font-family: $roboto
         }
     }
     .buttonEnter{

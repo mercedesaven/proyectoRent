@@ -71,9 +71,15 @@ body {
   font-family: "Roboto", sans-serif;
   padding: 10px;
 }
+.container .containerLogin .inputText:hover {
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
 .container .containerLogin a p {
   margin-bottom: 30px;
   color: #7E807E;
+  font-family: "Roboto", sans-serif;
 }
 .container .containerLogin .buttonEnter {
   border: 1px solid #2CC24A;
@@ -85,4 +91,4 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/*# sourceMappingURL=login.css.map */
+/*# sourceMappingURL=index.css.map */
